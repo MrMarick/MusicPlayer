@@ -29,7 +29,7 @@ class SongListVC: UIViewController {
         }
     }
     @IBAction func playBtnAction(_ sender: Any) {
-        self.performSegue(withIdentifier: "", sender: self)
+        self.performSegue(withIdentifier: "Music", sender: self)
     }
     @IBAction func backBtnAction(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
